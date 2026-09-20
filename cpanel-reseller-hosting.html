@@ -15,13 +15,17 @@
 <meta property="og:title" content="cPanel Reseller Hosting for Agencies &amp; Freelancers | WebSeva">
 <meta property="og:description" content="Launch your own hosting business on cPanel — NVMe SSD storage, full WHM access, free SSL, and 99.9% uptime.">
 <meta property="og:url" content="https://webseva.com/cpanel-reseller-hosting.html">
-<meta property="og:image" content="https://webseva.com/img/cpanel-hero.png">
+<meta property="og:image" content="https://webseva.com/img/og-cpanel.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="cPanel reseller hosting from WebSeva">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="cPanel Reseller Hosting for Agencies &amp; Freelancers | WebSeva">
 <meta name="twitter:description" content="Launch your own hosting business on cPanel — NVMe SSD storage, full WHM access, free SSL, and 99.9% uptime.">
-<meta name="twitter:image" content="https://webseva.com/img/cpanel-hero.png">
+<meta name="twitter:image" content="https://webseva.com/img/og-cpanel.png">
+<meta name="twitter:image:alt" content="cPanel reseller hosting from WebSeva">
 
 <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -40,10 +44,44 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://webseva.com/#organization",
   "name": "WebSeva",
-  "description": "WebSeva provides white-label reseller hosting infrastructure with NVMe storage, WHMCS automation, and cPanel/DirectAdmin accounts for hosting entrepreneurs.",
   "url": "https://webseva.com/",
-  "sameAs": []
+  "logo": "https://webseva.com/img/logo.png",
+  "description": "WebSeva provides white-label reseller hosting infrastructure with NVMe storage, WHMCS automation, and cPanel/DirectAdmin accounts for hosting entrepreneurs.",
+  "email": "contact@webseva.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Durga Bhawan, Anamnagar",
+    "addressLocality": "Kathmandu",
+    "addressCountry": "NP"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "contact@webseva.com",
+    "availableLanguage": "English"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://webseva.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "cPanel Reseller Hosting",
+      "item": "https://webseva.com/cpanel-reseller-hosting.html"
+    }
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -59,7 +97,8 @@
     {"@type": "Question", "name": "Can I create my own hosting packages?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. WHM lets you define your own hosting packages, resource limits, and pricing for your customers."}},
     {"@type": "Question", "name": "Is there a money-back guarantee?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, every plan includes a 30-day money-back guarantee, so you can try cPanel reseller hosting risk-free."}},
     {"@type": "Question", "name": "Can I install WordPress and other apps for my clients?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every cPanel reseller plan includes Softaculous, which lets you or your clients install WordPress and 400+ other apps in a single click — no manual setup required."}},
-    {"@type": "Question", "name": "Can I use custom nameservers with cPanel reseller hosting?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, you can configure fully branded custom nameservers, such as ns1.yourbrand.com, so your hosting looks entirely like your own infrastructure."}}
+    {"@type": "Question", "name": "Can I use custom nameservers with cPanel reseller hosting?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, you can configure fully branded custom nameservers, such as ns1.yourbrand.com, so your hosting looks entirely like your own infrastructure."}},
+    {"@type": "Question", "name": "Is bandwidth limited on cPanel reseller plans?", "acceptedAnswer": {"@type": "Answer", "text": "No. Every cPanel reseller plan includes unlimited bandwidth, alongside NVMe SSD storage and free SSL."}}
   ]
 }
 </script>
@@ -115,7 +154,7 @@
 <header class="site-header" id="siteHeader">
   <div class="container header-inner">
     <a href="index.html" class="logo" aria-label="WebSeva home">
-      <img src="img/logo.png" alt="WebSeva" class="logo-img">
+      <img src="img/logo.png" alt="WebSeva" class="logo-img" width="771" height="324">
     </a>
 
     <nav class="main-nav" id="mainNav" aria-label="Primary">
@@ -159,7 +198,7 @@
      didn't stay pinned full-screen while the page scrolled. -->
 <div class="mobile-drawer" id="mobileDrawer">
   <div class="mobile-drawer-head">
-    <img src="img/logo.png" alt="WebSeva" class="logo-img">
+    <img src="img/logo.png" alt="WebSeva" class="logo-img" width="771" height="324" decoding="async">
     <button class="nav-toggle" id="navClose" aria-label="Close menu">
       <svg width="22" height="22"><use href="#icon-close"/></svg>
     </button>
@@ -198,7 +237,7 @@
     </div>
 
     <div class="hero-visual">
-      <img src="img/cpanel-hero.png" alt="Illustration of a reseller managing hosting accounts through cPanel and WHM" class="hero-visual-img">
+      <img src="img/cpanel-hero.png" alt="Illustration of a reseller managing hosting accounts through cPanel and WHM" class="hero-visual-img" width="1000" height="1250" fetchpriority="high">
     </div>
   </div>
 </section>
@@ -504,6 +543,47 @@
   </div>
 </section>
 
+<!-- ================= WHM ACCESS ================= -->
+<section class="explainer">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">WHM access</span>
+      <h2>What You Can Do With WHM Access</h2>
+      <p>Every cPanel reseller plan includes full WHM access. Prefer a lighter panel? See our <a href="directadmin-reseller-hosting.html">DirectAdmin reseller hosting</a> plans.</p>
+    </div>
+    <div class="explainer-panel">
+      <div class="explainer-item">
+        <div class="explainer-item-icon"><svg width="20" height="20"><use href="#icon-scale"/></svg></div>
+        <div>
+          <h3>Create your own hosting packages</h3>
+          <p>Define storage, bandwidth, and account limits for each package, and set your own pricing for your customers.</p>
+        </div>
+      </div>
+      <div class="explainer-item">
+        <div class="explainer-item-icon"><svg width="20" height="20"><use href="#icon-accounts"/></svg></div>
+        <div>
+          <h3>Manage every client account in one place</h3>
+          <p>Create and manage an individual cPanel account for each of your clients from a single WHM dashboard.</p>
+        </div>
+      </div>
+      <div class="explainer-item">
+        <div class="explainer-item-icon"><svg width="20" height="20"><use href="#icon-whitelabel"/></svg></div>
+        <div>
+          <h3>Brand it as your own</h3>
+          <p>Use custom nameservers and your own logo, so your clients only ever see your brand.</p>
+        </div>
+      </div>
+      <div class="explainer-item">
+        <div class="explainer-item-icon"><svg width="20" height="20"><use href="#icon-bolt"/></svg></div>
+        <div>
+          <h3>Install apps in a single click</h3>
+          <p>Softaculous lets you or your clients install WordPress and 400+ other apps without any manual setup.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ================= WHO IT'S FOR ================= -->
 <section>
   <div class="container">
@@ -631,6 +711,13 @@
         </button>
         <div class="faq-answer"><p>Yes, you can configure fully branded custom nameservers, such as ns1.yourbrand.com, so your hosting looks entirely like your own infrastructure.</p></div>
       </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is bandwidth limited on cPanel reseller plans?
+          <svg width="16" height="16"><use href="#icon-chevron-down"/></svg>
+        </button>
+        <div class="faq-answer"><p>No. Every cPanel reseller plan includes unlimited bandwidth, alongside NVMe SSD storage and free SSL.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -659,13 +746,13 @@
   <div class="container footer-top">
     <div class="footer-brand">
       <a href="index.html" class="logo" aria-label="WebSeva home">
-        <img src="img/logo-dark.png" alt="WebSeva" class="footer-logo-img">
+        <img src="img/logo-dark.png" alt="WebSeva" class="footer-logo-img" width="600" height="200" loading="lazy" decoding="async">
       </a>
       <p>Fast, reliable reseller hosting with premium infrastructure, NVMe storage, and 24/7 expert support to help you grow your hosting business.</p>
     </div>
 
     <div class="footer-col">
-      <h4>Quick Links</h4>
+      <h3>Quick Links</h3>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about-us.html">About Us</a></li>
@@ -678,7 +765,7 @@
     </div>
 
     <div class="footer-col">
-      <h4>Legal</h4>
+      <h3>Legal</h3>
       <ul>
         <li><a href="legal.html#privacy-policy">Privacy Policy</a></li>
         <li><a href="legal.html#terms-and-conditions">Terms &amp; Conditions</a></li>
@@ -705,7 +792,7 @@
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
       <span>© 2026 Webseva. All rights reserved.</span>
-      <span class="footer-tag">Backed by <a href="https://bisup.com" target="_blank" rel="noopener" aria-label="Bisup"><img src="img/bisup-dark.png" alt="Bisup" class="bisup-logo-img"></a></span>
+      <span class="footer-tag">Backed by <a href="https://bisup.com" target="_blank" rel="noopener" aria-label="Bisup"><img src="img/bisup-dark.png" alt="Bisup" class="bisup-logo-img" width="300" height="87" loading="lazy" decoding="async"></a></span>
     </div>
   </div>
 </footer>

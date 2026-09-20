@@ -15,13 +15,17 @@
 <meta property="og:title" content="DirectAdmin Reseller Hosting — Affordable &amp; Easy | WebSeva">
 <meta property="og:description" content="Launch your own hosting business on DirectAdmin — NVMe SSD storage, free SSL, free migration, and 99.9% uptime.">
 <meta property="og:url" content="https://webseva.com/directadmin-reseller-hosting.html">
-<meta property="og:image" content="https://webseva.com/img/directadmin-hero.png">
+<meta property="og:image" content="https://webseva.com/img/og-directadmin.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="DirectAdmin reseller hosting from WebSeva">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="DirectAdmin Reseller Hosting — Affordable &amp; Easy | WebSeva">
 <meta name="twitter:description" content="Launch your own hosting business on DirectAdmin — NVMe SSD storage, free SSL, free migration, and 99.9% uptime.">
-<meta name="twitter:image" content="https://webseva.com/img/directadmin-hero.png">
+<meta name="twitter:image" content="https://webseva.com/img/og-directadmin.png">
+<meta name="twitter:image:alt" content="DirectAdmin reseller hosting from WebSeva">
 
 <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -40,10 +44,44 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://webseva.com/#organization",
   "name": "WebSeva",
-  "description": "WebSeva provides white-label reseller hosting infrastructure with NVMe storage, WHMCS automation, and DirectAdmin/cPanel accounts for hosting entrepreneurs.",
   "url": "https://webseva.com/",
-  "sameAs": []
+  "logo": "https://webseva.com/img/logo.png",
+  "description": "WebSeva provides white-label reseller hosting infrastructure with NVMe storage, WHMCS automation, and DirectAdmin/cPanel accounts for hosting entrepreneurs.",
+  "email": "contact@webseva.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Durga Bhawan, Anamnagar",
+    "addressLocality": "Kathmandu",
+    "addressCountry": "NP"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "contact@webseva.com",
+    "availableLanguage": "English"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://webseva.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "DirectAdmin Reseller Hosting",
+      "item": "https://webseva.com/directadmin-reseller-hosting.html"
+    }
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -59,7 +97,8 @@
     {"@type": "Question", "name": "Is there a money-back guarantee?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, every plan includes a 30-day money-back guarantee, so you can try DirectAdmin reseller hosting risk-free."}},
     {"@type": "Question", "name": "How does billing work?", "acceptedAnswer": {"@type": "Answer", "text": "You're billed monthly in advance for your chosen plan. Upgrade, downgrade, or cancel at any time from your dashboard."}},
     {"@type": "Question", "name": "Does DirectAdmin support one-click app installs like WordPress?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every DirectAdmin reseller plan includes a one-click installer for WordPress and 100+ other apps, so your clients can launch sites in seconds."}},
-    {"@type": "Question", "name": "How often are backups taken on DirectAdmin reseller plans?", "acceptedAnswer": {"@type": "Answer", "text": "Backup frequency depends on your plan — weekly backups on DA Starter, and daily automated backups on DA Professional, DA Ultimate, and DA TOP."}}
+    {"@type": "Question", "name": "How often are backups taken on DirectAdmin reseller plans?", "acceptedAnswer": {"@type": "Answer", "text": "Backup frequency depends on your plan — weekly backups on DA Starter, and daily automated backups on DA Professional, DA Ultimate, and DA TOP."}},
+    {"@type": "Question", "name": "Is DirectAdmin easier to learn than cPanel?", "acceptedAnswer": {"@type": "Answer", "text": "Generally, yes. DirectAdmin has a simple, beginner-friendly interface and a shorter learning curve than cPanel/WHM, which is feature-rich but denser."}}
   ]
 }
 </script>
@@ -117,7 +156,7 @@
 <header class="site-header" id="siteHeader">
   <div class="container header-inner">
     <a href="index.html" class="logo" aria-label="WebSeva home">
-      <img src="img/logo.png" alt="WebSeva" class="logo-img">
+      <img src="img/logo.png" alt="WebSeva" class="logo-img" width="771" height="324">
     </a>
 
     <nav class="main-nav" id="mainNav" aria-label="Primary">
@@ -161,7 +200,7 @@
      didn't stay pinned full-screen while the page scrolled. -->
 <div class="mobile-drawer" id="mobileDrawer">
   <div class="mobile-drawer-head">
-    <img src="img/logo.png" alt="WebSeva" class="logo-img">
+    <img src="img/logo.png" alt="WebSeva" class="logo-img" width="771" height="324" decoding="async">
     <button class="nav-toggle" id="navClose" aria-label="Close menu">
       <svg width="22" height="22"><use href="#icon-close"/></svg>
     </button>
@@ -200,7 +239,7 @@
     </div>
 
     <div class="hero-visual">
-      <img src="img/directadmin-hero.png" alt="Illustration of a reseller managing hosting accounts through the DirectAdmin control panel" class="hero-visual-img">
+      <img src="img/directadmin-hero.png" alt="Illustration of a reseller managing hosting accounts through the DirectAdmin control panel" class="hero-visual-img" width="1000" height="1250" fetchpriority="high">
     </div>
   </div>
 </section>
@@ -384,6 +423,27 @@
   </div>
 </section>
 
+<!-- ================= INCLUDED ================= -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Every plan</span>
+      <h2>Included With Every DirectAdmin Plan</h2>
+      <p>No add-ons, no hidden fees. Not sure DirectAdmin is the right fit? Compare it with <a href="cpanel-reseller-hosting.html">cPanel reseller hosting</a>.</p>
+    </div>
+    <ul class="included-grid">
+      <li class="included-item"><svg width="18" height="18"><use href="#icon-check"/></svg><span>NVMe SSD storage</span></li>
+      <li class="included-item"><svg width="18" height="18"><use href="#icon-check"/></svg><span>Unlimited bandwidth</span></li>
+      <li class="included-item"><svg width="18" height="18"><use href="#icon-check"/></svg><span>Dedicated RAM and CPU cores</span></li>
+      <li class="included-item"><svg width="18" height="18"><use href="#icon-check"/></svg><span>Free SSL, auto-renewed</span></li>
+      <li class="included-item"><svg width="18" height="18"><use href="#icon-check"/></svg><span>One-click installer for WordPress and 100+ apps</span></li>
+      <li class="included-item"><svg width="18" height="18"><use href="#icon-check"/></svg><span>Free migration from your current host</span></li>
+      <li class="included-item"><svg width="18" height="18"><use href="#icon-check"/></svg><span>Full white-label branding</span></li>
+      <li class="included-item"><svg width="18" height="18"><use href="#icon-check"/></svg><span>Custom nameservers</span></li>
+    </ul>
+  </div>
+</section>
+
 <!-- ================= DIRECTADMIN VS CPANEL ================= -->
 <section class="compare" id="compare">
   <div class="container">
@@ -482,12 +542,12 @@
   </div>
 </section>
 
-<!-- ================= WHO IT'S FOR ================= -->
+<!-- ================= WHY DIRECTADMIN ================= -->
 <section>
   <div class="container">
     <div class="section-head">
-      <span class="eyebrow">Who it's for</span>
-      <h2>Who Should Choose DirectAdmin Reseller Hosting</h2>
+      <span class="eyebrow">Why DirectAdmin</span>
+      <h2>Why Resellers Choose DirectAdmin</h2>
     </div>
     <div class="feature-grid">
       <div class="feature-item">
@@ -609,6 +669,13 @@
         </button>
         <div class="faq-answer"><p>Backup frequency depends on your plan — weekly backups on DA Starter, and daily automated backups on DA Professional, DA Ultimate, and DA TOP.</p></div>
       </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is DirectAdmin easier to learn than cPanel?
+          <svg width="16" height="16"><use href="#icon-chevron-down"/></svg>
+        </button>
+        <div class="faq-answer"><p>Generally, yes. DirectAdmin has a simple, beginner-friendly interface and a shorter learning curve than cPanel/WHM, which is feature-rich but denser.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -637,13 +704,13 @@
   <div class="container footer-top">
     <div class="footer-brand">
       <a href="index.html" class="logo" aria-label="WebSeva home">
-        <img src="img/logo-dark.png" alt="WebSeva" class="footer-logo-img">
+        <img src="img/logo-dark.png" alt="WebSeva" class="footer-logo-img" width="600" height="200" loading="lazy" decoding="async">
       </a>
       <p>Fast, reliable reseller hosting with premium infrastructure, NVMe storage, and 24/7 expert support to help you grow your hosting business.</p>
     </div>
 
     <div class="footer-col">
-      <h4>Quick Links</h4>
+      <h3>Quick Links</h3>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about-us.html">About Us</a></li>
@@ -656,7 +723,7 @@
     </div>
 
     <div class="footer-col">
-      <h4>Legal</h4>
+      <h3>Legal</h3>
       <ul>
         <li><a href="legal.html#privacy-policy">Privacy Policy</a></li>
         <li><a href="legal.html#terms-and-conditions">Terms &amp; Conditions</a></li>
@@ -683,7 +750,7 @@
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
       <span>© 2026 Webseva. All rights reserved.</span>
-      <span class="footer-tag">Backed by <a href="https://bisup.com" target="_blank" rel="noopener" aria-label="Bisup"><img src="img/bisup-dark.png" alt="Bisup" class="bisup-logo-img"></a></span>
+      <span class="footer-tag">Backed by <a href="https://bisup.com" target="_blank" rel="noopener" aria-label="Bisup"><img src="img/bisup-dark.png" alt="Bisup" class="bisup-logo-img" width="300" height="87" loading="lazy" decoding="async"></a></span>
     </div>
   </div>
 </footer>

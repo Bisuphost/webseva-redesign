@@ -15,13 +15,17 @@
 <meta property="og:title" content="WebSeva — White-Label Reseller Hosting Infrastructure">
 <meta property="og:description" content="Launch and scale your own hosting business with white-label infrastructure, WHMCS automation, and NVMe-powered resources.">
 <meta property="og:url" content="https://webseva.com/">
-<meta property="og:image" content="https://webseva.com/img/hero.png">
+<meta property="og:image" content="https://webseva.com/img/og-home.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="WebSeva — white-label reseller hosting infrastructure">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="WebSeva — White-Label Reseller Hosting Infrastructure">
 <meta name="twitter:description" content="Launch and scale your own hosting business with white-label infrastructure, WHMCS automation, and NVMe-powered resources.">
-<meta name="twitter:image" content="https://webseva.com/img/hero.png">
+<meta name="twitter:image" content="https://webseva.com/img/og-home.png">
+<meta name="twitter:image:alt" content="WebSeva — white-label reseller hosting infrastructure">
 
 <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -40,10 +44,36 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://webseva.com/#organization",
   "name": "WebSeva",
-  "description": "WebSeva provides white-label reseller hosting infrastructure with NVMe storage, WHMCS automation, and cPanel accounts for hosting entrepreneurs.",
   "url": "https://webseva.com/",
-  "sameAs": []
+  "logo": "https://webseva.com/img/logo.png",
+  "description": "WebSeva provides white-label reseller hosting infrastructure with NVMe storage, WHMCS automation, and cPanel accounts for hosting entrepreneurs.",
+  "email": "contact@webseva.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Durga Bhawan, Anamnagar",
+    "addressLocality": "Kathmandu",
+    "addressCountry": "NP"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "contact@webseva.com",
+    "availableLanguage": "English"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://webseva.com/#website",
+  "url": "https://webseva.com/",
+  "name": "WebSeva",
+  "publisher": {
+    "@id": "https://webseva.com/#organization"
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -63,7 +93,8 @@
     {"@type": "Question", "name": "Do you offer a money-back guarantee?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, every plan includes a 30-day money-back guarantee, so you can try WebSeva risk-free."}},
     {"@type": "Question", "name": "Will you migrate my existing hosting accounts for free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our team migrates your existing accounts, domains, and websites from your current host for free, with minimal downtime."}},
     {"@type": "Question", "name": "Can I switch between monthly and yearly billing?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — you can switch between monthly and yearly billing anytime from your client area. Paying yearly saves you 17% compared to month-to-month billing."}},
-    {"@type": "Question", "name": "Do I need any technical experience to get started?", "acceptedAnswer": {"@type": "Answer", "text": "No — WHMCS and your chosen control panel (cPanel or DirectAdmin) handle billing, provisioning, and account management automatically, so you can launch a hosting brand without any server administration experience."}}
+    {"@type": "Question", "name": "Do I need any technical experience to get started?", "acceptedAnswer": {"@type": "Answer", "text": "No — WHMCS and your chosen control panel (cPanel or DirectAdmin) handle billing, provisioning, and account management automatically, so you can launch a hosting brand without any server administration experience."}},
+    {"@type": "Question", "name": "Is free SSL included with every plan?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Every plan includes free SSL certificates that are issued and renewed automatically for each domain you host."}}
   ]
 }
 </script>
@@ -117,7 +148,7 @@
 <header class="site-header" id="siteHeader">
   <div class="container header-inner">
     <a href="#hero" class="logo" aria-label="WebSeva home">
-      <img src="img/logo.png" alt="WebSeva" class="logo-img">
+      <img src="img/logo.png" alt="WebSeva" class="logo-img" width="771" height="324">
     </a>
 
     <nav class="main-nav" id="mainNav" aria-label="Primary">
@@ -161,7 +192,7 @@
      didn't stay pinned full-screen while the page scrolled. -->
 <div class="mobile-drawer" id="mobileDrawer">
   <div class="mobile-drawer-head">
-    <img src="img/logo.png" alt="WebSeva" class="logo-img">
+    <img src="img/logo.png" alt="WebSeva" class="logo-img" width="771" height="324" decoding="async">
     <button class="nav-toggle" id="navClose" aria-label="Close menu">
       <svg width="22" height="22"><use href="#icon-close"/></svg>
     </button>
@@ -201,7 +232,7 @@
     </div>
 
     <div class="hero-visual">
-      <img src="img/hero.png" alt="Illustration of a hosting entrepreneur managing their reseller business, backed by WebSeva infrastructure" class="hero-visual-img">
+      <img src="img/hero.png" alt="Illustration of a hosting entrepreneur managing their reseller business, backed by WebSeva infrastructure" class="hero-visual-img" width="1000" height="1000" fetchpriority="high">
     </div>
   </div>
 </section>
@@ -214,22 +245,22 @@
   <div class="logo-marquee">
     <div class="logo-marquee-track">
       <div class="logo-marquee-group">
-        <img src="img/cpanel.png" alt="cPanel" class="logo-marquee-img">
-        <img src="img/directadmin.png" alt="DirectAdmin" class="logo-marquee-img">
-        <img src="img/wordpress.png" alt="WordPress" class="logo-marquee-img">
-        <img src="img/litespeed.png" alt="LiteSpeed" class="logo-marquee-img">
-        <img src="img/cloudflare.png" alt="Cloudflare" class="logo-marquee-img">
-        <img src="img/jetbackup.png" alt="JetBackup" class="logo-marquee-img">
-        <img src="img/aws.png" alt="AWS" class="logo-marquee-img">
+        <img src="img/cpanel.png" alt="cPanel" class="logo-marquee-img" width="555" height="200" decoding="async">
+        <img src="img/directadmin.png" alt="DirectAdmin" class="logo-marquee-img" width="480" height="105" decoding="async">
+        <img src="img/wordpress.png" alt="WordPress" class="logo-marquee-img" width="480" height="109" decoding="async">
+        <img src="img/litespeed.png" alt="LiteSpeed" class="logo-marquee-img" width="320" height="320" decoding="async">
+        <img src="img/cloudflare.png" alt="Cloudflare" class="logo-marquee-img" width="480" height="300" decoding="async">
+        <img src="img/jetbackup.png" alt="JetBackup" class="logo-marquee-img" width="375" height="150" decoding="async">
+        <img src="img/aws.png" alt="AWS" class="logo-marquee-img" width="713" height="476" decoding="async">
       </div>
       <div class="logo-marquee-group" aria-hidden="true">
-        <img src="img/cpanel.png" alt="" class="logo-marquee-img">
-        <img src="img/directadmin.png" alt="" class="logo-marquee-img">
-        <img src="img/wordpress.png" alt="" class="logo-marquee-img">
-        <img src="img/litespeed.png" alt="" class="logo-marquee-img">
-        <img src="img/cloudflare.png" alt="" class="logo-marquee-img">
-        <img src="img/jetbackup.png" alt="" class="logo-marquee-img">
-        <img src="img/aws.png" alt="" class="logo-marquee-img">
+        <img src="img/cpanel.png" alt="" class="logo-marquee-img" width="555" height="200" decoding="async">
+        <img src="img/directadmin.png" alt="" class="logo-marquee-img" width="480" height="105" decoding="async">
+        <img src="img/wordpress.png" alt="" class="logo-marquee-img" width="480" height="109" decoding="async">
+        <img src="img/litespeed.png" alt="" class="logo-marquee-img" width="320" height="320" decoding="async">
+        <img src="img/cloudflare.png" alt="" class="logo-marquee-img" width="480" height="300" decoding="async">
+        <img src="img/jetbackup.png" alt="" class="logo-marquee-img" width="375" height="150" decoding="async">
+        <img src="img/aws.png" alt="" class="logo-marquee-img" width="713" height="476" decoding="async">
       </div>
     </div>
   </div>
@@ -541,7 +572,7 @@
           </ul>
         </div>
         <div class="stack-visual">
-          <img src="img/card4.png" alt="Illustration of a 24/7 support team helping a reseller's customer" class="stack-visual-img">
+          <img src="img/card4.png" alt="Illustration of a 24/7 support team helping a reseller's customer" class="stack-visual-img" width="1100" height="731" loading="lazy" decoding="async">
         </div>
       </article>
 
@@ -557,7 +588,7 @@
           </ul>
         </div>
         <div class="stack-visual">
-          <img src="img/card1.png" alt="Illustration of cash, a coin, a billing calendar, and a payment card representing predictable pricing" class="stack-visual-img">
+          <img src="img/card1.png" alt="Illustration of cash, a coin, a billing calendar, and a payment card representing predictable pricing" class="stack-visual-img" width="1100" height="656" loading="lazy" decoding="async">
         </div>
       </article>
 
@@ -573,7 +604,7 @@
           </ul>
         </div>
         <div class="stack-visual">
-          <img src="img/card3.png" alt="Illustration of a person uploading accounts and files to the cloud during a migration" class="stack-visual-img">
+          <img src="img/card3.png" alt="Illustration of a person uploading accounts and files to the cloud during a migration" class="stack-visual-img" width="1100" height="769" loading="lazy" decoding="async">
         </div>
       </article>
 
@@ -589,7 +620,7 @@
           </ul>
         </div>
         <div class="stack-visual">
-          <img src="img/card2.png" alt="Illustration of server racks, cloud sync, and an analytics dashboard representing scalable infrastructure" class="stack-visual-img">
+          <img src="img/card2.png" alt="Illustration of server racks, cloud sync, and an analytics dashboard representing scalable infrastructure" class="stack-visual-img" width="1100" height="699" loading="lazy" decoding="async">
         </div>
       </article>
 
@@ -757,6 +788,31 @@
   </div>
 </section>
 
+<!-- ================= CONTROL PANELS ================= -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Control panels</span>
+      <h2>Choose Your Control Panel</h2>
+      <p>Both run on NVMe infrastructure with free SSL and free migration — pick the panel that fits your clients and your margins.</p>
+    </div>
+    <div class="mission-vision-grid">
+      <div class="mission-vision-card">
+        <div class="feature-icon"><svg width="20" height="20"><use href="#icon-server"/></svg></div>
+        <h3>cPanel Reseller Hosting</h3>
+        <p>The industry-standard panel your clients already know, with full WHM access and Softaculous for one-click installs of WordPress and 400+ apps.</p>
+        <a href="cpanel-reseller-hosting.html" class="link-arrow">Explore cPanel plans <svg width="16" height="16"><use href="#icon-arrow-right"/></svg></a>
+      </div>
+      <div class="mission-vision-card">
+        <div class="feature-icon"><svg width="20" height="20"><use href="#icon-panel"/></svg></div>
+        <h3>DirectAdmin Reseller Hosting</h3>
+        <p>A lightweight, beginner-friendly panel with a lower licensing cost, plus one-click installs for WordPress and 100+ apps.</p>
+        <a href="directadmin-reseller-hosting.html" class="link-arrow">Explore DirectAdmin plans <svg width="16" height="16"><use href="#icon-arrow-right"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ================= CTA ================= -->
 <section class="cta-section">
   <div class="container">
@@ -881,6 +937,13 @@
         </button>
         <div class="faq-answer"><p>No — WHMCS and your chosen control panel (cPanel or DirectAdmin) handle billing, provisioning, and account management automatically, so you can launch a hosting brand without any server administration experience.</p></div>
       </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is free SSL included with every plan?
+          <svg width="16" height="16"><use href="#icon-chevron-down"/></svg>
+        </button>
+        <div class="faq-answer"><p>Yes. Every plan includes free SSL certificates that are issued and renewed automatically for each domain you host.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -892,13 +955,13 @@
   <div class="container footer-top">
     <div class="footer-brand">
       <a href="#hero" class="logo" aria-label="WebSeva home">
-        <img src="img/logo-dark.png" alt="WebSeva" class="footer-logo-img">
+        <img src="img/logo-dark.png" alt="WebSeva" class="footer-logo-img" width="600" height="200" loading="lazy" decoding="async">
       </a>
       <p>Fast, reliable reseller hosting with premium infrastructure, NVMe storage, and 24/7 expert support to help you grow your hosting business.</p>
     </div>
 
     <div class="footer-col">
-      <h4>Quick Links</h4>
+      <h3>Quick Links</h3>
       <ul>
         <li><a href="#hero">Home</a></li>
         <li><a href="about-us.html">About Us</a></li>
@@ -911,7 +974,7 @@
     </div>
 
     <div class="footer-col">
-      <h4>Legal</h4>
+      <h3>Legal</h3>
       <ul>
         <li><a href="legal.html#privacy-policy">Privacy Policy</a></li>
         <li><a href="legal.html#terms-and-conditions">Terms &amp; Conditions</a></li>
@@ -938,7 +1001,7 @@
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
       <span>© 2026 Webseva. All rights reserved.</span>
-      <span class="footer-tag">Backed by <a href="https://bisup.com" target="_blank" rel="noopener" aria-label="Bisup"><img src="img/bisup-dark.png" alt="Bisup" class="bisup-logo-img"></a></span>
+      <span class="footer-tag">Backed by <a href="https://bisup.com" target="_blank" rel="noopener" aria-label="Bisup"><img src="img/bisup-dark.png" alt="Bisup" class="bisup-logo-img" width="300" height="87" loading="lazy" decoding="async"></a></span>
     </div>
   </div>
 </footer>
